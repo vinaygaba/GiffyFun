@@ -1,0 +1,16 @@
+{
+  "name": "giffyfun",
+  "version": "0.0.1",
+  "author": "vinaygaba",
+  "private": true,
+  "scripts": {
+    "start": "node bot"
+  },
+  "dependencies": {
+    "express": "*",
+    "giphy-api": "^1.1.15",
+    "request": "^2.69.0",
+    "socket.io": "*",
+    "twitter": "*"
+  }
+}
