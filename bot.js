@@ -7,10 +7,10 @@ var fs = require('fs'),
 request = require('request');
 
 var T = new Twit({
-	consumer_key: ''
-	, consumer_secret: ''
-	, access_token: ''
-	, access_token_secret: ''
+	consumer_key: 'Dvd3thgcNwYHub1fx44NoIMj5'
+	, consumer_secret: 'FndXi8HRNDVthmI2y7B3GjoUsKfQZkZE3aXj2K2Z1tXnEXWmHV'
+	, access_token: '709998298246074369-NUmGLwnbDlFlOUR3McqwNsEkSQ8e3vU'
+	, access_token_secret: 'v6C6BHDUts7A55pZCmMgOmkCpMvLXR2GdDtDqK6tyyqL1'
 });
 
 var USERNAME = '@giffyfun';

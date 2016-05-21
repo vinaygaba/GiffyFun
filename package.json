@@ -4,13 +4,13 @@
   "author": "vinaygaba",
   "private": true,
   "scripts": {
-    "start": "node bot"
+    "start": "node bot.js"
   },
   "dependencies": {
     "express": "*",
     "giphy-api": "^1.1.15",
     "request": "^2.69.0",
-    "twitter": "*",
+    "twit": "*",
     "fs":"*"
   }
 }
