@@ -10,7 +10,7 @@
     "express": "*",
     "giphy-api": "^1.1.15",
     "request": "^2.69.0",
-    "socket.io": "*",
-    "twitter": "*"
+    "twitter": "*",
+    "fs":"*"
   }
 }
