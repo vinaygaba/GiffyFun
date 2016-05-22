@@ -2,7 +2,7 @@ var Twit = require('twit');
 
 // Require with the public beta key
 var giphy = require('giphy-api')();
-
+var express    = require('express');
 var fs = require('fs'),
 request = require('request');
 
@@ -12,6 +12,8 @@ var T = new Twit({
 	, access_token: '709998298246074369-NUmGLwnbDlFlOUR3McqwNsEkSQ8e3vU'
 	, access_token_secret: 'v6C6BHDUts7A55pZCmMgOmkCpMvLXR2GdDtDqK6tyyqL1'
 });
+var app = express();
+var port = process.env.PORT || 5000;        // set our port
 
 var USERNAME = '@giffyfun';
 
@@ -91,6 +93,8 @@ stream.on('tweet', function (data) {
     });
   };
 
+
+	app.listen(port);
 
 /*T.post('statuses/update', { status: "." }, function(err, data, response) {
   if(err) {
